@@ -4,7 +4,7 @@ This is a MINIMUM template for GoogleAppsScript development with TypeScript.
 
 ## 📚 Features
 - Develop with TypeScript  
-- Bundle files with Webpack5 (You can use npm modules)
+- Bundle files with Vite (You can use npm modules)
 - Develop locally and deploy with Clasp 
 
 ## 🏃‍♂️ Get Started
@@ -48,10 +48,10 @@ npx clasp login --no-localhost
 
 ## 🚀 Commands
 ```bash
-# webpack build
+# vite build
 npm run build
 
-# webpack build in watch mode
+# vite build in watch mode
 npm run build:watch
 
 # push dist files to script.google.com
@@ -60,6 +60,6 @@ npm run push
 # push dist files to script.google.com in watch mode
 npm run push:watch
 
-# webpack build & push dist files to script.google.com
+# webpack vite & push dist files to script.google.com
 npm run deploy
 ```
