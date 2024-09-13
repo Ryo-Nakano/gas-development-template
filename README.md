@@ -60,6 +60,6 @@ npm run push
 # push dist files to script.google.com in watch mode
 npm run push:watch
 
-# webpack vite & push dist files to script.google.com
+# vite build & push dist files to script.google.com
 npm run deploy
 ```
