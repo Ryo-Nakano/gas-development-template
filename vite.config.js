@@ -9,11 +9,11 @@ export default defineConfig({
     rollupPluginGas(),
     typescript(),
     {
-      name: 'copy-appsscript-json', // カスタムプラグインの名前
+      name: 'copy-appsscript-json',
       writeBundle() {
-        const srcFile = path.resolve(__dirname, 'appsscript.json'); // コピー元のパス
-        const destDir = path.resolve(__dirname, 'dist'); // コピー先のディレクトリ
-        const destFile = path.join(destDir, 'appsscript.json'); // コピー先のファイルパス
+        const srcFile = path.resolve(__dirname, 'appsscript.json');
+        const destDir = path.resolve(__dirname, 'dist');
+        const destFile = path.join(destDir, 'appsscript.json');
 
         if (!fs.existsSync(destDir)) fs.mkdirSync(destDir);
         fs.copyFileSync(srcFile, destFile);
