@@ -18,7 +18,7 @@ git clone <Your template url> my-gas-project
  or
 
 # If you don't want to use as template
-git clone git@github.com:basefood/gas-development-template.git my-gas-project
+git clone https://github.com/Ryo-Nakano/gas-development-template.git my-gas-project
 ```
 
 #### 3. Move directory
